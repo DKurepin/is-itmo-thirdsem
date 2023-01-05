@@ -1,1 +1,1 @@
-here you can find all laboratory works in we did in 3rd semester 
+here you can find all laboratory works we did in 3rd semester 
