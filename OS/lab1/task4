@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ $HOME == $PWD ]]
+then
+	echo $HOME
+	exit 0
+else
+	echo "We are not in the HOME directory at the moment"
+	exit 1
+fi

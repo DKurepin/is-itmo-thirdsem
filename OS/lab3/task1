@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+report=~/report.txt
+host="www.net_nikogo.ru"
+
+rm -r ~/test
+
+mkdir ~/test && {
+	echo "catalog test was created successfully" > $report
+	touch ~/test/$(date +"%d.%m.%y_%T")
+}
+ping -c1 $host || echo `date +'%x.%m.%y_%T'` ": ping failed" >> $report

@@ -1,0 +1,112 @@
+111
+1: /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+2: [kthreadd]
+3: [rcu_gp]
+4: [rcu_par_gp]
+6: [kworker/0:0H]
+8: [mm_percpu_wq]
+9: [ksoftirqd/0]
+10: [rcu_sched]
+11: [migration/0]
+12: [watchdog/0]
+13: [cpuhp/0]
+14: [cpuhp/1]
+15: [watchdog/1]
+16: [migration/1]
+17: [ksoftirqd/1]
+19: [kworker/1:0H]
+21: [kdevtmpfs]
+22: [netns]
+23: [kauditd]
+25: [khungtaskd]
+26: [oom_reaper]
+27: [writeback]
+28: [kcompactd0]
+29: [ksmd]
+30: [khugepaged]
+31: [crypto]
+32: [kintegrityd]
+33: [kblockd]
+34: [tpm_dev_wq]
+35: [md]
+36: [edac-poller]
+37: [watchdogd]
+48: [kswapd0]
+141: [kthrotld]
+142: [acpi_thermal_pm]
+143: [kmpath_rdacd]
+144: [kaluad]
+146: [ipv6_addrconf]
+147: [kstrp]
+380: [ata_sff]
+382: [scsi_eh_0]
+384: [scsi_tmf_0]
+387: [scsi_eh_1]
+391: [scsi_tmf_1]
+392: [scsi_eh_2]
+394: [scsi_tmf_2]
+401: [kworker/1:1H-kblockd]
+417: [kworker/0:1H-kblockd]
+458: [kdmflush]
+469: [kdmflush]
+504: [jbd2/dm-0-8]
+505: [ext4-rsv-conver]
+595: /usr/lib/systemd/systemd-journald
+663: [irq/18-vmwgfx]
+664: [ttm_swap]
+665: [kdmflush]
+692: [jbd2/sda1-8]
+693: [ext4-rsv-conver]
+700: [xfsalloc]
+701: [xfs_mru_cache]
+702: [xfs-buf/dm-2]
+703: [xfs-conv/dm-2]
+704: [xfs-cil/dm-2]
+705: [xfs-reclaim/dm-]
+706: [xfs-log/dm-2]
+707: [xfs-eofblocks/d]
+708: [xfsaild/dm-2]
+730: /usr/bin/rpcbind -w -f
+732: /sbin/auditd
+736: [rpciod]
+737: [kworker/u5:0]
+738: [xprtiod]
+760: avahi-daemon: running [linux.local]
+761: /usr/bin/lsmd -d
+762: /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+763: /usr/sbin/mcelog --ignorenodev --daemon --foreground
+764: /usr/sbin/ModemManager
+765: /usr/sbin/sssd -i --logger=files
+766: /usr/sbin/irqbalance --foreground
+767: /usr/sbin/smartd -n -q never
+771: /usr/lib/polkit-1/polkitd --no-debug
+778: /sbin/rngd -f --fill-watermark=0
+779: avahi-daemon: chroot helper
+780: /usr/sbin/gssproxy -D
+796: /usr/libexec/sssd/sssd_be --domain implicit_files --uid 0 --gid 0 --logger=files
+799: /usr/libexec/platform-python -s /usr/sbin/firewalld --nofork --nopid
+800: /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+801: /usr/lib/systemd/systemd-logind
+818: /usr/sbin/NetworkManager --no-daemon
+825: /usr/sbin/sshd -D -oCiphers=aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc -oMACs=hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512 -oGSSAPIKexAlgorithms=gss-gex-sha1-,gss-group14-sha1- -oKexAlgorithms=curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1 -oHostKeyAlgorithms=rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oPubkeyAcceptedKeyTypes=rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oCASignatureAlgorithms=rsa-sha2-256,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,rsa-sha2-512,ecdsa-sha2-nistp521,ssh-ed25519,ssh-rsa
+828: /usr/libexec/platform-python -Es /usr/sbin/tuned -l -P
+1048: /usr/sbin/crond -n
+1049: /usr/sbin/atd -f
+1347: login -- user
+1352: /usr/lib/systemd/systemd --user
+1357: (sd-pam)
+1363: -bash
+1520: sort
+1522: login -- user
+1528: -bash
+1907: [kworker/u4:1-events_unbound]
+3169: /usr/lib/systemd/systemd-udevd
+13270: [kworker/u4:2-events_unbound]
+31434: [kworker/0:2-events]
+33141: [kworker/0:0-events]
+33474: top -o %MEM
+35363: [kworker/1:0-ata_sff]
+35365: [kworker/1:2-ata_sff]
+35377: [kworker/1:1-mm_percpu_wq]
+35386: /bin/bash ./task1
+35387: ps -u root ax -o pid,command --no-headers

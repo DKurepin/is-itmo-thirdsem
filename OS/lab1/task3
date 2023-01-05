@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Hi there! Choose what do you want to use from menu:"
+echo "1. vi"
+echo "2. nano"
+echo "3. links"
+echo "4. Get the hell out of here!"
+read A
+ case $A in
+ "1") vi;;
+ "2") nano;;
+ "3") links;;
+ "4") exit 0;;
+esac

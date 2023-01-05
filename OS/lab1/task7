@@ -1,0 +1,11 @@
+#!/bin/bash
+
+mail="[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-]+.[a-z]+"
+grep -I -h -r -o -E "$mail" /etc | sort | uniq | awk '{printf("%s, ", $0)}'> emails.lst
+
+# a - delete binary files from search
+# r - recursive search
+# o - only matching part of string
+# h - delete filenames from result
+# I - equivalent to --binary-files=without-match
+# E - extended regexp

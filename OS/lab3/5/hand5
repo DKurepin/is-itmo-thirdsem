@@ -1,0 +1,37 @@
+#!/bin/bash
+
+let res=1
+#mode 1 - add; 2 - mult
+let mode=1
+re='^[0-9]+$'
+
+(tail -f pipe) |
+while true; do
+	read LINE
+	if [[ $LINE == "QUIT" ]]; then
+		echo "exit"
+		killall tail
+		killall gen5
+		exit
+	elif [[ $LINE == "+" ]]; then
+		echo "switch to add"
+		mode=1
+	elif [[ $LINE == "*" ]]; then
+		echo "switch to multiply"
+		mode=2
+	elif [[ $LINE =~ $re ]]; then 
+		if [[ $mode == 1 ]]; then
+			echo "adding"
+			res=$(($res + $LINE))
+		else
+			echo "multiplying"
+			res=$(($res * $LINE))
+		fi
+		echo "result: $res"
+	else
+		echo "Invalid input"
+		killall tail
+		kilall gen5
+		exit
+	fi
+done

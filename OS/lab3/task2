@@ -1,0 +1,5 @@
+#!/bin/bash
+
+report=~/report.txt
+at now +2 minute -f task1
+tail -f $report &

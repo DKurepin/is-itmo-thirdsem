@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cat list.txt | while read output
+do
+	ping -c 1 "$output" > pings 
+	if [[ $? == 0 ]]; then
+		echo "$output is up"
+		break
+	fi
+done

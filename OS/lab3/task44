@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./process&pid0=$!
+./process&pid1=$!
+./process&pid2=$!

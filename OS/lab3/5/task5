@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkfifo pipe
+sh hand5&sh gen5
+rm pipe
+

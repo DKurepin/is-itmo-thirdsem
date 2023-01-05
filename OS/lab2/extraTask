@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for Pid in $(ps -eo pid)
+do
+if [[ -r /proc/$Pid/status ]]
+then
+a=$(cat /proc/$Pid/status | grep -s "VmLib")
+if [[ "$a" == '' ]]
+then
+echo "$Pid"
+fi
+fi 
+done				

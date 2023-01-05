@@ -1,0 +1,22 @@
+#!/bin/bash
+
+sh hand6 &
+hand6=$!
+
+while true 
+do
+	read LINE
+	case $LINE in
+		"TERM")
+			kill -SIGTERM $(cat pid6)
+			break
+			;;
+		"+")
+			kill -USR1 $(cat pid6)
+			;;
+		"*")
+			kill -USR2 $(cat pid6)
+			;;
+	esac
+done
+kill -TERM $hand6

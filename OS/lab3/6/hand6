@@ -1,0 +1,34 @@
+#!/bin/bash
+
+echo $$ > pid6
+res=1
+command="none"
+
+usr1() {
+	command="+"
+}
+usr2() {
+	command="*"
+}
+
+trap 'usr1' USR1
+trap 'usr2' USR2
+
+
+while true 
+do
+	case $command in
+		"+") 
+			res=$(echo "2" $res | awk '{print $1 + $2}')
+			echo $res
+			;;
+		"*")
+			res=$(echo "2" $res | awk '{print $1 * $2}')
+			echo $res
+			;;
+		"none")
+			;;
+	esac
+	sleep 1
+done
+ls

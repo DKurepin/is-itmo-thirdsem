@@ -1,0 +1,14 @@
+#!/bin/bash
+
+read string
+
+for i in $(seq 0 ${#string}) 
+do
+	reverse=${string:$i:1}$reverse
+done
+if [ "$string" = "$reverse" ]
+then
+	echo "It is palindrome"
+else
+	echo "It is not palindrome"
+fi

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+for pid in $(ps  -e -o pid | tail -n +2)
+	do
+	path_status="/proc/$pid/status"
+	path_sched="/proc/$pid/sched"
+	if [[ -f $path_status && -f $path_sched ]]
+	then
+		ppid=$(grep "PPid" $path_status | awk '{print $2}')
+		sum_exec_runtime=$(grep "se.sum_exec_runtime" $path_sched | awk '{print $3}')
+		nr_switches=$(grep "nr_switches" $path_sched | awk '{print $3}')
+		art=$(echo "$sum_exec_runtime / $nr_switches" | bc -l)
+		echo "ProcessID= $pid : Parent_ProcessID= $ppid : Average_Running_Time= $art" >> res4
+	fi
+done
+echo "$(sort -n -k5 res4)" > res4

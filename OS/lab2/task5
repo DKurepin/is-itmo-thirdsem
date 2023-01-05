@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for ppid in $(cat res4 | awk '{print $5}' | sort -n -u)
+do
+	grep -e "Parent_ProcessID= $ppid " res4 >> res5
+	echo -n "Average_Sleeping_Children_of_ParentID=$ppid is " >> res5
+	grep -e "Parent_ProcessID= $ppid " res4 | awk '{s += $8} {i += 1} END {print s/i}' >> res5
+
+done

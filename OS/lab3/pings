@@ -1,0 +1,6 @@
+PING www.google.com (108.177.14.105) 56(84) bytes of data.
+64 bytes from lt-in-f105.1e100.net (108.177.14.105): icmp_seq=1 ttl=107 time=9.36 ms
+
+--- www.google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 9.360/9.360/9.360/0.000 ms
