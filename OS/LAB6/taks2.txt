@@ -1,0 +1,23 @@
+1)
+hostname
+cd C:\
+mkdir test
+net share temp=C:\test /grant:"Все",FULL
+
+
+2)
+echo robocopy /z C:\Windows\ \\%computername%\temp explorer.exe > copy.cmd
+
+3)
+schtasks /create /tn copy /sc MINUTE /tr C:\copy.cmd
+
+4) 
+schtasks /query | find "copy"
+schtasks /delete /tn copy
+taskkill /f /im "robocopy.exe"
+
+5)
+fc C:\Windows\explorer.exe \\%computername%\temp\explorer.exe
+
+6) robocopy /z автоматически продолжит загрузку при новом запуске
+robocopy /z C:\Windows\ \\%computername%\temp explorer.exe

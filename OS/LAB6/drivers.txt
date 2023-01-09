@@ -1,0 +1,426 @@
+
+1394ohci     1394 OHCI-совместимый  Kernel                              
+3ware        3ware                  Kernel        19.05.2015 1:28:03    
+ACPI         Драйвер Microsoft ACPI Kernel                              
+AcpiDev      Драйвер устройств с AC Kernel                              
+acpiex       Microsoft ACPIEx Drive Kernel                              
+acpipagr     Драйвер агрегатора про Kernel                              
+AcpiPmi      Драйвер устройства изм Kernel                              
+acpitime     Драйвер ACPI Wake Alar Kernel                              
+Acx01000     Acx01000               Kernel                              
+ADP80XX      ADP80XX                Kernel        09.04.2015 23:49:48   
+AFD          Драйвер дополнительных Kernel                              
+afunix       afunix                 Kernel                              
+ahcache      Application Compatibil Kernel                              
+amdgpio2     Драйвер GPIO-клиента A Kernel        07.02.2019 12:32:20   
+amdi2c       Служба контроллера I2C Kernel        20.03.2019 7:57:33    
+AmdK8        AMD K8 драйвер процесс Kernel                              
+AmdPPM       Драйвер процессора AMD Kernel                              
+amdsata      amdsata                Kernel        14.05.2015 15:14:52   
+amdsbs       amdsbs                 Kernel        12.12.2012 0:21:44    
+amdxata      amdxata                Kernel        01.05.2015 3:55:35    
+AppID        Драйвер AppID          Kernel                              
+AppleKmdfFil Apple KMDF Filter Driv Kernel        03.10.2020 2:51:13    
+AppleLowerFi Apple Lower Filter Dri Kernel        03.10.2020 2:51:12    
+AppleSSD     Твердотельный накопите Kernel        12.11.2019 0:24:17    
+applockerflt Драйвер фильтра Smartl Kernel                              
+arcsas       Adaptec SAS/SATA-II RA Kernel        09.04.2015 22:12:07   
+AsyncMac     Драйвер асинхронного н Kernel                              
+atapi        Канал IDE              Kernel                              
+b06bdrv      Сетевой адаптер VBD QL Kernel        25.05.2016 10:03:08   
+bam          Background Activity Mo Kernel                              
+BasicDisplay BasicDisplay           Kernel                              
+BasicRender  BasicRender            Kernel                              
+bcmfn2       bcmfn2 Service         Kernel        01.11.2016 5:09:15    
+Beep         Beep                   Kernel                              
+bindflt      Windows Bind Filter Dr File System                         
+bowser       Браузер                File System                         
+BthA2dp      Microsoft Bluetooth A2 Kernel                              
+BthEnum      Служба перечислителя B Kernel                              
+BthHFAud     Драйвер звука гарнитур Kernel                              
+BthHFEnum    Драйвер профиля гарнит Kernel                              
+BthLEEnum    Драйвер Bluetooth с ни Kernel                              
+BthMini      Драйвер радио Bluetoot Kernel                              
+BTHMODEM     Драйвер связи Bluetoot Kernel                              
+BTHPORT      Драйвер порта Bluetoot Kernel                              
+BTHUSB       Драйвер порта USB ради Kernel                              
+bttflt       Фильтр Microsoft Hyper Kernel                              
+BTWDPAN      Bluetooth Personal Are Kernel        15.11.2010 21:33:45   
+buttonconver Служба для устройств к Kernel                              
+CAD          Драйвер вынесения реше Kernel                              
+cdfs         CD/DVD File System Rea File System                         
+cdrom        Драйвер CD-ROM дисково Kernel                              
+cht4iscsi    cht4iscsi              Kernel        05.02.2019 16:51:31   
+cht4vbd      Драйвер виртуальной ши Kernel        05.02.2019 16:47:51   
+CimFS        CimFS                  File System                         
+circlass     Потребительские ИК-уст Kernel                              
+CldFlt       Windows Cloud Files Fi File System                         
+CLFS         Common Log (CLFS)      Kernel                              
+CmBatt       Драйвер батареи с ACPI Kernel                              
+CNG          CNG                    Kernel                              
+cnghwassist  CNG Hardware Assist al Kernel                              
+CompositeBus Драйвер перечислителя  Kernel                              
+condrv       Console Driver         Kernel                              
+dam          Desktop Activity Moder Kernel                              
+Dfsc         Драйвер клиента простр File System                         
+disk         Драйвер диска          Kernel                              
+dmvsc        dmvsc                  Kernel                              
+dptf_acpi    dptf_acpi              Kernel        13.03.2021 2:40:08    
+dptf_cpu     dptf_cpu               Kernel        13.03.2021 2:40:10    
+drmkaud      Доверенные аудиодрайве Kernel                              
+DXGKrnl      LDDM Graphics Subsyste Kernel                              
+ebdrv        Адаптер QLogic 10 Giga Kernel        15.11.2020 13:12:10   
+ebdrv0       QLogic Legacy Ethernet Kernel        07.11.2020 13:07:41   
+EhStorClass  Enhanced Storage Filte Kernel                              
+EhStorTcgDrv Драйвер Майкрософт для Kernel                              
+ErrDev       Microsoft Hardware Err Kernel                              
+esif_lf      esif_lf                Kernel        13.03.2021 2:40:33    
+ETDSMBus     ETDSMBus               Kernel        06.07.2020 5:52:49    
+ExecutionCon CPU Scheduler for High Kernel                              
+exfat        exFAT File System Driv File System                         
+expressvpnsp expressvpnsplittunnel  Kernel        01.05.2019 16:00:01   
+expressvpntu expressvpntun          Kernel        28.09.2021 7:05:20    
+fastfat      FAT12/16/32 File Syste File System                         
+fdc          Драйвер контроллера ги Kernel                              
+FileCrypt    FileCrypt              File System                         
+FileInfo     File Information FS Mi File System                         
+Filetrace    Filetrace              File System                         
+flpydisk     Драйвер дисковода гибк Kernel                              
+FltMgr       Диспетчер фильтров     File System                         
+FsDepends    File System Dependency File System                         
+fse          Flow steering engine   Kernel                              
+fvevol       Драйвер фильтра шифров Kernel                              
+gencounter   Счетчик создания Micro Kernel                              
+genericusbfn Общий класс функции US Kernel                              
+GPIOClx0101  Microsoft GPIO Class E Kernel                              
+GpuEnergyDrv GPU Energy Driver      Kernel                              
+HdAudAddServ Драйвер функции UAA дл Kernel                              
+HDAudBus     Драйвер для шины UAA д Kernel                              
+HidBatt      Драйвер батареи ИБП HI Kernel                              
+HidBth       Microsoft Bluetooth HI Kernel                              
+HidEventFilt Intel(R) HID Event Fil Kernel        07.07.2021 15:55:37   
+hidi2c       Драйвер минипорта для  Kernel                              
+hidinterrupt Общий драйвер для кноп Kernel                              
+HidIr        Драйвер Microsoft Infr Kernel                              
+hidspi       Драйвер минипорта для  Kernel                              
+HidSpiCx     HidSpi KMDF Class Exte Kernel                              
+HidUsb       Драйвер класса HID Mic Kernel                              
+HID_PCI      HID PCI Minidriver for Kernel        16.05.2019 11:00:53   
+hnswfpdriver Драйвер HNS WFP        Kernel                              
+HpSAMD       HpSAMD                 Kernel        27.03.2013 0:36:54    
+Hsp          Служба Microsoft Pluto Kernel                              
+HTTP         HTTP-служба            Kernel                              
+hvcrash      hvcrash                Kernel                              
+hvservice    Драйвер службы низкоур Kernel                              
+hvsocketcont hvsocketcontrol        Kernel                              
+HWiNFO32     HWiNFO32/64 Kernel Dri Kernel        31.03.2015 12:51:32   
+HwNClx0101   Microsoft Hardware Not Kernel                              
+hwpolicy     Hardware Policy Driver Kernel                              
+hyperkbd     hyperkbd               Kernel                              
+HyperVideo   HyperVideo             Kernel                              
+i8042prt     Драйвер i8042-клавиату Kernel                              
+iagpio       Драйвер контроллера GP Kernel        23.07.2018 12:04:46   
+iai2c        Intel(R) Serial IO I2C Kernel        23.07.2018 12:04:39   
+iaLPSS2i_GPI Драйвер версии 2 Intel Kernel        19.04.2018 10:53:24   
+iaLPSS2i_GPI Драйвер версии 2 интер Kernel        17.04.2018 12:25:15   
+iaLPSS2i_GPI Драйвер версии 2 интер Kernel        17.04.2018 10:07:03   
+iaLPSS2i_GPI Драйвер версии 2 интер Kernel        16.05.2018 8:46:36    
+iaLPSS2i_I2C Драйвер версии 2 Intel Kernel        19.04.2018 10:52:58   
+iaLPSS2i_I2C Драйвер версии 2 I2C д Kernel        17.04.2018 12:24:40   
+iaLPSS2i_I2C Драйвер версии 2 интер Kernel        15.07.2019 8:12:12    
+iaLPSS2i_I2C Драйвер версии 2 интер Kernel        16.05.2018 8:46:02    
+iaLPSS2_GPIO Intel(R) Serial IO GPI Kernel        02.08.2021 9:13:13    
+iaLPSS2_I2C_ Intel(R) Serial IO I2C Kernel        02.08.2021 9:12:42    
+iaLPSSi_GPIO Драйвер контроллера In Kernel        02.02.2015 12:00:09   
+iaLPSSi_I2C  Драйвер Intel(R) Seria Kernel        24.02.2015 18:52:07   
+iaStorAC     Intel(R) Chipset SATA/ Kernel        30.09.2021 16:50:11   
+iaStorAVC    RAID-контроллер SATA д Kernel        05.09.2019 15:07:32   
+iaStorV      RAID-контроллер Intel  Kernel        11.04.2011 21:48:16   
+ibbus        Mellanox InfiniBand Bu Kernel        19.06.2019 16:20:09   
+ibtusb       Intel(R) Wireless Blue Kernel        30.05.2022 8:43:01    
+igfx         igfx                   Kernel        21.01.2022 11:10:08   
+IndirectKmd  Драйвер режима ядра не Kernel                              
+IntcAudioBus Технология Intel(R) Sm Kernel        14.05.2021 21:52:19   
+IntcAzAudAdd Service for Realtek HD Kernel        24.08.2021 13:21:22   
+IntcDAud     Аудио Intel(R) для дис Kernel        22.11.2021 8:35:33    
+IntcDMic     Технология Intel® Smar Kernel        14.05.2021 21:53:00   
+IntcOED      Технология Intel(R) Sm Kernel        14.05.2021 21:54:13   
+intelide     intelide               Kernel                              
+intelpep     Драйвер подключаемого  Kernel                              
+intelpmax    Драйвер диспетчера Int Kernel                              
+IntelPMT     Служба технологии мони Kernel                              
+intelppm     Драйвер Intel процессо Kernel                              
+iorate       Драйвер фильтра скорос Kernel                              
+IpFilterDriv Драйвер фильтра IP-тра Kernel                              
+IPMIDRV      IPMIDRV                Kernel                              
+IPNAT        IP Network Address Tra Kernel                              
+IPT          IPT                    Kernel                              
+isapnp       isapnp                 Kernel                              
+iScsiPrt     Драйвер iScsiPort      Kernel                              
+ISH          Intel(R) Integrated Se Kernel        26.07.2021 8:45:26    
+ISH_BusDrive  ISS Bus Enumerator    Kernel        16.05.2019 11:00:48   
+ItSas35i     ItSas35i               Kernel        18.09.2020 13:23:25   
+kbdclass     Драйвер класса клавиат Kernel                              
+kbdhid       Драйвер клавиатуры HID Kernel                              
+kdnic        Мини-порт сетевого ада Kernel                              
+KSecDD       KSecDD                 Kernel                              
+KSecPkg      KSecPkg                Kernel                              
+ksthunk      Kernel Streaming Thunk Kernel                              
+l2bridge     Драйвер моста          Kernel                              
+lltdio       Ответчик обнаружения т Kernel                              
+LSI_SAS      LSI_SAS                Kernel        25.03.2015 22:36:48   
+LSI_SAS2i    LSI_SAS2i              Kernel        02.08.2017 16:29:59   
+LSI_SAS3i    LSI_SAS3i              Kernel        21.08.2020 10:33:28   
+luafv        Виртуализация файла ко File System                         
+lxss         lxss                   Kernel                              
+mausbhost    Драйвер хост-контролле Kernel                              
+mausbip      Драйвер IP-фильтр MA-U Kernel                              
+MbbCx        MBB Network Adapter Cl Kernel                              
+megasas2i    megasas2i              Kernel        22.01.2020 12:57:48   
+megasas35i   megasas35i             Kernel        12.01.2021 10:59:10   
+megasr       megasr                 Kernel        04.06.2013 1:02:39    
+MEIx64       Intel(R) Management En Kernel        10.03.2022 15:33:38   
+Microsoft_Bl Драйвер транспорта AVR Kernel                              
+mlx4_bus     Перечислитель шины Mel Kernel        19.06.2019 16:21:08   
+MMCSS        Multimedia Class Sched Kernel                              
+Modem        Modem                  Kernel                              
+monitor      Microsoft Monitor Clas Kernel                              
+mouclass     Драйвер класса мыши    Kernel                              
+mouhid       Драйвер мыши HID       Kernel                              
+mountmgr     Диспетчер точек подклю Kernel                              
+mpi3drvi     mpi3drvi               Kernel        03.03.2021 0:23:11    
+mpsdrv       Windows Defender Firew Kernel                              
+MRxDAV       Драйвер перенаправител File System                         
+mrxsmb       Оболочка и модуль мини File System                         
+mrxsmb20     Мини-перенаправитель S File System                         
+MsBridge     MAC-мост (Майкрософт)  Kernel                              
+Msfs         Msfs                   File System                         
+msgpiowin32  Общий драйвер для кноп Kernel                              
+mshidkmdf    Pass-through HID to KM Kernel                              
+mshidumdf    Сквозной драйвер HID-U Kernel                              
+msisadrv     msisadrv               Kernel                              
+MSKSSRV      Представитель служб по Kernel                              
+MsLldp       Протокол Microsoft LLD Kernel                              
+MSPCLOCK     Посредник синхронизаци Kernel                              
+MSPQM        Представитель диспетче Kernel                              
+MsQuic       MsQuic                 Kernel        02.02.2022 2:56:20    
+MsRPC        MsRPC                  Kernel                              
+mssmbios     Драйвер Microsoft Syst Kernel                              
+MSTEE        Преобразователь потоко Kernel                              
+MTConfig     Microsoft Input Config Kernel                              
+Mup          Mup                    File System                         
+mvumis       mvumis                 Kernel        23.05.2014 23:39:04   
+NativeWifiP  Фильтр NativeWiFi      Kernel                              
+ndfltr       Служба NetworkDirect   Kernel        19.06.2019 16:18:42   
+NDIS         Системный драйвер NDIS Kernel                              
+NdisCap      Захват Microsoft NDIS  Kernel                              
+NdisImPlatfo Протокол мультиплексор Kernel                              
+NdisTapi     NDIS-драйвер TAPI удал Kernel                              
+Ndisuio      NDIS Usermode I/O Prot Kernel                              
+NdisVirtualB Перечислитель виртуаль Kernel                              
+NdisWan      NDIS-драйвер глобально Kernel                              
+ndiswanlegac Устаревшая версия NDIS Kernel                              
+NDKPerf      NDKPerf Driver         Kernel                              
+NDKPing      NDKPing Driver         Kernel                              
+ndproxy      NDIS Proxy Driver      Kernel                              
+Ndu          Windows Network Data U Kernel                              
+Netaapl      Apple Mobile Device Et Kernel        16.07.2013 1:39:01    
+NetAdapterCx Network Adapter Wdf Cl Kernel                              
+NetBIOS      NetBIOS Interface      File System                         
+NetBT        NetBT                  Kernel                              
+netvsc       netvsc                 Kernel                              
+Netwtw10     ___ Драйвер адаптера I Kernel        21.06.2022 15:17:57   
+Npfs         Npfs                   File System                         
+npsvctrig    Named pipe service tri Kernel                              
+nsiproxy     NSI Proxy Service Driv Kernel                              
+Ntfs         Ntfs                   File System                         
+Null         Null                   Kernel                              
+nvdimm       Драйвер устройства (Ма Kernel                              
+nvlddmkm     nvlddmkm               Kernel        07.06.2022 3:17:28    
+nvmedisk     Драйвер диска Microsof Kernel                              
+nvraid       nvraid                 Kernel        21.04.2014 21:28:42   
+nvstor       nvstor                 Kernel        21.04.2014 21:34:03   
+NvStreamKms  NVIDIA KMS             Kernel        26.06.2018 2:52:03    
+nvvad_WaveEx NVIDIA Virtual Audio D Kernel        13.09.2021 10:32:00   
+nvvhci       NVVHCI Enumerator Serv Kernel        16.08.2018 23:01:22   
+P9Rdr        Plan 9 Redirector Driv Kernel                              
+Parport      Драйвер параллельного  Kernel                              
+partmgr      Драйвер разделов       Kernel                              
+passthrupars PassthroughParser      Kernel                              
+pci          Драйвер шины PCI       Kernel                              
+pciide       pciide                 Kernel                              
+pcmcia       pcmcia                 Kernel                              
+pcw          Performance Counters f Kernel                              
+pdc          pdc                    Kernel                              
+PEAUTH       PEAUTH                 Kernel                              
+percsas2i    percsas2i              Kernel        15.03.2016 3:50:11    
+percsas3i    percsas3i              Kernel        02.06.2018 0:47:02    
+PktMon       Packet Monitor Driver  Kernel                              
+pmem         Драйвер диска энергоне Kernel                              
+PNPMEM       Драйвер модуля памяти  Kernel                              
+portcfg      portcfg                Kernel                              
+PptpMiniport Мини-порт глобальной с Kernel                              
+PRM          Драйвер Microsoft PRM  Kernel                              
+Processor    Драйвер процессора     Kernel                              
+Psched       Планировщик пакетов Qo Kernel                              
+pvhdparser   pvhdparser             Kernel                              
+QWAVEdrv     Драйвер QWAVE          Kernel                              
+Ramdisk      Windows RAM Disk Drive Kernel                              
+RasAcd       Remote Access Auto Con Kernel                              
+RasAgileVpn  Мини-порт глобальной с Kernel                              
+Rasl2tp      Мини-порт глобальной с Kernel                              
+RasPppoe     Драйвер PPPOE для удал Kernel                              
+RasSstp      Мини-порт глобальной с Kernel                              
+rdacpi       Render ACPI device     Kernel        12.07.2016 10:58:20   
+rdbss        Перенаправленная подси File System                         
+rdpbus       Драйвер шины перенапра Kernel                              
+RDPDR        Драйвер перенаправител Kernel                              
+RdpVideoMini Remote Desktop Video M Kernel                              
+rdyboost     ReadyBoost             Kernel                              
+ReFS         ReFS                   File System                         
+ReFSv1       ReFSv1                 File System                         
+RFCOMM       Bluetooth Device (RFCO Kernel                              
+rhproxy      Драйвер прокси-сервера Kernel                              
+rspndr       Отвечающее устройство  Kernel                              
+s3cap        s3cap                  Kernel                              
+sbp2port     SBP-2 драйвер шины тра Kernel                              
+scfilter     Драйвер фильтра смарт- Kernel                              
+scmbus       Драйвер Microsoft шины Kernel                              
+sdbus        sdbus                  Kernel                              
+SDFRd        Отражатель SDF         Kernel                              
+sdstor       Драйвер порта SD Stora Kernel                              
+SerCx        Serial UART Support Li Kernel                              
+SerCx2       Serial UART Support Li Kernel                              
+Serenum      Драйвер фильтра Serenu Kernel                              
+Serial       Драйвер последовательн Kernel                              
+sermouse     Драйвер мыши для посл. Kernel                              
+sfloppy      Дисковод большой емкос Kernel                              
+SgrmAgent    System Guard Runtime M Kernel                              
+SiSRaid2     SiSRaid2               Kernel        24.09.2008 21:28:20   
+SiSRaid4     SiSRaid4               Kernel        02.10.2008 0:56:04    
+SmartSAMD    SmartSAMD              Kernel        21.02.2019 20:54:44   
+spaceparser  spaceparser            Kernel                              
+spaceport    Драйвер дискового прос Kernel                              
+SpatialGraph Holographic Spatial Gr Kernel                              
+SpbCx        Simple Peripheral Bus  Kernel                              
+srv2         Драйвер сервера Server File System                         
+srvnet       srvnet                 File System                         
+stexstor     stexstor               Kernel        27.11.2012 3:02:51    
+storahci     Стандартный драйвер SA Kernel                              
+storflt      Ускоритель хранилища M Kernel                              
+stornvme     Стандартный драйвер NV Kernel                              
+storqosflt   Драйвер-фильтр качеств File System                         
+storufs      Драйвер для универсаль Kernel                              
+storvsc      storvsc                Kernel                              
+storvsp      storvsp                Kernel                              
+swenum       Драйвер программной ши Kernel                              
+tap0901      TAP-Windows Adapter V9 Kernel        08.10.2020 17:02:50   
+tapexpressvp ExpressVPN TAP Adapter Kernel        30.04.2019 11:09:14   
+Tcpip        Драйвер протокола TCP/ Kernel                              
+Tcpip6       @todo.dll,-100;Microso Kernel                              
+tcpipreg     @%SystemRoot%\System32 Kernel                              
+tdx          Драйвер поддержки NetI Kernel                              
+terminpt     Microsoft Remote Deskt Kernel                              
+TPM          TPM                    Kernel                              
+TsUsbFlt     Драйвер-фильтр класса  Kernel                              
+TsUsbGD      Универсальное USB-устр Kernel                              
+tunnel       Драйвер адаптера минип Kernel                              
+UASPStor     Драйвер USB-устройства Kernel                              
+UcmCx0101    USB Connector Manager  Kernel                              
+UcmTcpciCx01 UCM-TCPCI KMDF Class E Kernel                              
+UcmUcsiAcpiC Клиент ACPI UCM-UCSI   Kernel                              
+UcmUcsiCx010 UCM-UCSI KMDF Class Ex Kernel                              
+Ucx01000     USB Host Support Libra Kernel                              
+UdeCx        USB Device Emulation S Kernel                              
+udfs         udfs                   File System                         
+UEFI         Драйвер UEFI (Майкросо Kernel                              
+Ufx01000     USB Function Class Ext Kernel                              
+UfxChipidea  USB-контроллер Chipide Kernel                              
+ufxsynopsys  USB-котроллер Synopsys Kernel                              
+umbus        UMBus драйвер перечисл Kernel                              
+UmPass       Драйвер UMPass Microso Kernel                              
+UrsChipidea  Драйвер с переключение Kernel                              
+UrsCx01000   USB Role-Switch Suppor Kernel                              
+UrsSynopsys  Драйвер с переключение Kernel                              
+Usb4DeviceRo Служба маршрутизатора  Kernel                              
+Usb4HostRout Служба маршрутизатора  Kernel                              
+usbaudio     Аудио драйвер USB (WDM Kernel                              
+usbaudio2    Служба USB Audio 2.0   Kernel                              
+usbccgp      Драйвер универсального Kernel                              
+usbcir       eHome инфракрасный рес Kernel                              
+usbehci      Драйвер минипорта Micr Kernel                              
+usbhub       Стандартный драйвер US Kernel                              
+USBHUB3      Концентратор SuperSpee Kernel                              
+usbohci      Драйвер минипорта Micr Kernel                              
+usbprint     Класс принтеров Micros Kernel                              
+usbser       Драйвер последовательн Kernel                              
+USBSTOR      Драйвер запоминающих у Kernel                              
+usbuhci      Драйвер минипорта Micr Kernel                              
+usbvideo     USB-видеоустройство (W Kernel                              
+USBXHCI      xHCI-совместимый хост- Kernel                              
+VBoxNetAdp   VirtualBox NDIS 6.0 Mi Kernel        01.09.2022 16:20:23   
+VBoxNetLwf   VirtualBox NDIS6 Bridg Kernel        01.09.2022 16:20:23   
+VBoxSup      VirtualBox Service     Kernel        01.09.2022 16:21:11   
+VBoxUSBMon   VirtualBox USB Monitor Kernel        01.09.2022 16:20:23   
+vdrvroot     Перечислитель виртуаль Kernel                              
+VerifierExt  Расширение средства пр Kernel                              
+vhdmp        vhdmp                  Kernel                              
+vhdparser    vhdparser              Kernel                              
+vhf          Драйвер платформы Virt Kernel                              
+Vid          Vid                    Kernel                              
+VirtualRende VirtualRender          Kernel                              
+vmbus        Шина VMBus             Kernel                              
+VMBusHID     VMBusHID               Kernel                              
+vmbusproxy   vmbusproxy             Kernel                              
+vmbusr       Поставщик шины виртуал Kernel                              
+vmgid        Драйвер инфраструктуры Kernel                              
+vmsmp        vmsmp                  Kernel                              
+VMSNPXY      VmSwitch NIC Proxy Dri Kernel                              
+VMSP         VmSwitch Protocol Driv Kernel                              
+VmsProxy     VmSwitch Proxy Driver  Kernel                              
+VMSVSF       VmSwitch Extensibility Kernel                              
+VMSVSP       VmSwitch Extensibility Kernel                              
+volmgr       Драйвер диспетчера том Kernel                              
+volmgrx      Диспетчер динамических Kernel                              
+volsnap      Драйвер теневого копир Kernel                              
+volume       Драйвер тома           Kernel                              
+vpci         Виртуальная шина PCI M Kernel                              
+vpcivsp      Сервер PCI Microsoft H Kernel                              
+vsmraid      vsmraid                Kernel        22.04.2014 22:21:41   
+VSTXRAID     Драйвер RAID-контролле Kernel        21.01.2013 22:00:28   
+vwifibus     Virtual Wireless Bus D Kernel                              
+vwififlt     Virtual WiFi Filter Dr Kernel                              
+vwifimp      Virtual WiFi Miniport  Kernel                              
+WacomPen     Wacom - драйвер пера п Kernel                              
+wanarp       Драйвер IP ARP для уда Kernel                              
+wanarpv6     Драйвер IPv6 ARP для у Kernel                              
+wcifs        Windows Container Isol File System                         
+WdBoot       Драйвер загрузки антив Kernel                              
+Wdf01000     Служба платформ драйве Kernel                              
+WdFilter     Драйвер с функцией мин File System                         
+wdiwifi      WDI Driver Framework   Kernel                              
+WdmCompanion WdmCompanionFilter     Kernel                              
+WdNisDrv     Системный драйвер пров Kernel                              
+WFPLWFS      Платформа фильтрации M Kernel                              
+WifiCx       Wifi Network Adapter C Kernel                              
+WIMMount     WIMMount               File System                         
+WindowsTrust Windows Trusted Execut Kernel                              
+WindowsTrust Служба безопасности до Kernel                              
+WinMad       Служба WinMad          Kernel        19.06.2019 16:18:11   
+WinNat       Драйвер NAT Windows    Kernel                              
+wintun       wintun                 Kernel        10.12.2019 17:00:15   
+WINUSB       Драйвер WinUsb         Kernel                              
+WinVerbs     Служба WinVerbs        Kernel        19.06.2019 16:18:12   
+WmiAcpi      Microsoft Windows Mana Kernel                              
+Wof          Windows Overlay File S File System                         
+WpdUpFltr    WPD Upper Class Filter Kernel                              
+ws2ifsl      Драйвер WinSock IFS    Kernel                              
+WSDPrintDevi Поддержка печати WSD   Kernel                              
+WSDScan      Поддержка сканирования Kernel                              
+WudfPf       User Mode Driver Frame Kernel                              
+WUDFRd       Windows Driver Foundat Kernel                              
+WUDFWpdFs    Драйвер файловой систе Kernel                              
+WUDFWpdMtp   WUDFWpdMtp             Kernel                              
+xboxgip      Драйвер протокола игро Kernel                              
+xinputhid    Драйвер-фильтр HID XIN Kernel                              
+MpKsl0beedb7 MpKsl0beedb73          Kernel                              

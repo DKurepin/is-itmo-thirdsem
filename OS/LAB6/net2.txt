@@ -1,0 +1,137 @@
+Запущены следующие службы Windows:
+
+   AarSvc_6821f
+   BluetoothUserService_6821f
+   cbdhsvc_6821f
+   CDPUserSvc_6821f
+   CoreMessaging
+   DevicesFlowUserSvc_6821f
+   DHCP-клиент
+   DNS-клиент
+   Docker Desktop Service
+   ExpressVPN Service
+   Intel(R) Audio Service
+   Intel(R) Content Protection HDCP Service
+   Intel(R) Content Protection HECI Service
+   Intel(R) Dynamic Application Loader Host Interface Service
+   Intel(R) Dynamic Tuning service
+   Intel(R) HD Graphics Control Panel Service
+   Intel(R) Management and Security Application Local Management Service
+   Intel(R) Management Engine WMI Provider Registration
+   Intel(R) Storage Middleware Service
+   JetBrains ETW Host Service v16.31.0 (x64)
+   LxssManager
+   Microsoft Office Click-to-Run Service
+   NPSMSvc_6821f
+   NVIDIA Display Container LS
+   NVIDIA LocalSystem Container
+   OneSyncSvc_6821f
+   OpenVPN Interactive Service
+   PimIndexMaintenanceSvc_6821f
+   Plug and Play
+   PrintWorkflowUserSvc_6821f
+   Quality Windows Audio Video Experience
+   Realtek Audio Universal Service
+   SysMain
+   UdkUserSvc_6821f
+   UnistoreSvc_6821f
+   UserDataSvc_6821f
+   Waves Audio Services
+   Windows Audio
+   Windows Search
+   WpnUserService_6821f
+   Брандмауэр Защитника Windows
+   Брокер времени
+   Брокер мониторинга среды выполнения System Guard
+   Брокер системных событий
+   Брокер фонового обнаружения DevQuery
+   Веб-клиент
+   Вспомогательная служба IP
+   Диспетчер локальных сеансов
+   Диспетчер печати
+   Диспетчер подключений Windows
+   Диспетчер подключений удаленного доступа
+   Диспетчер пользователей
+   Диспетчер проверки подлинности Xbox Live
+   Диспетчер учетных веб-записей
+   Диспетчер учетных данных
+   Диспетчер учетных записей безопасности
+   Доступ к устройствам HID
+   Журнал событий Windows
+   Изоляция ключей CNG
+   Инструментарий управления Windows
+   Использование данных
+   Клиент отслеживания изменившихся связей
+   Кэш шрифтов Windows Presentation Foundation 3.0.0.0
+   Модуль запуска процессов DCOM-сервера
+   Модуль поддержки NetBIOS через TCP/IP
+   Немедленные подключения Windows - регистратор настройки
+   Обнаружение SSDP
+   Общий доступ к подключению к Интернету (ICS)
+   Определение оборудования оболочки
+   Оптимизация доставки
+   Питание
+   Планировщик заданий
+   Помощник по входу в учетную запись Майкрософт
+   Посредник подключений к сети
+   Публикация ресурсов обнаружения функции
+   Рабочая станция
+   Расширяемый протокол проверки подлинности (EAP)
+   Сведения о приложении
+   Сервер
+   Сетевая служба узла
+   Система событий COM+
+   Служба "Безопасность Windows"
+   Служба AVCTP
+   Служба SSTP
+   Служба Windows License Manager
+   Служба автоматического обнаружения веб-прокси WinHTTP
+   Служба автонастройки WLAN
+   Служба антивирусной программы Microsoft Defender
+   Служба базовой фильтрации
+   Служба виртуализации сети
+   Служба вычисления узлов Hyper-V
+   Служба географического положения
+   Служба датчиков
+   Служба диспетчера доступа к возможностям
+   Служба загрузки изображений Windows (WIA)
+   Служба звукового шлюза Bluetooth
+   Служба интерфейса сохранения сети
+   Служба инфраструктуры фоновых задач
+   Служба кэша шрифтов Windows
+   Служба лицензий клиента (ClipSVC)
+   Служба оркестратора обновлений
+   Служба платформы подключенных устройств
+   Служба поддержки Bluetooth
+   Служба политики диагностики
+   Служба политики отображения
+   Служба помощника по совместимости программ
+   Служба проверки сети антивирусной программы Microsoft Defender
+   Служба профилей пользователей
+   Служба репозитория состояний
+   Служба сенсорной клавиатуры и панели рукописного ввода
+   Служба системы push-уведомлений Windows
+   Служба совместного доступа к данным
+   Служба сопоставления устройств
+   Служба списка сетей
+   Служба уведомления о системных событиях
+   Служба узла HV
+   Служба улучшения отображения
+   Служба управления радио
+   Служба установки Microsoft Store
+   Служба хранилища
+   Службы криптографии
+   Сопоставитель конечных точек RPC
+   Средство построения конечных точек Windows Audio
+   Телефонная связь
+   Темы
+   Удаленный вызов процедур (RPC)
+   Узел системы диагностики
+   Узел службы диагностики
+   Функциональные возможности для подключенных пользователей и телеметрия
+   Хост поставщика функции обнаружения
+   Центр обеспечения безопасности
+   Шифрованная файловая система (EFS)
+
+Команда выполнена успешно.
+
